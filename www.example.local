@@ -1,0 +1,3 @@
+location /google/index.html {
+    proxy_pass http://nice.example.local/google/index.html;
+}

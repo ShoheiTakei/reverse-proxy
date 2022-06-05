@@ -7,6 +7,7 @@ services:
       - '80:80'
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./www.example.local:/etc/nginx/vhost.d/www.example.local
 
 networks:
   default:
